@@ -4,6 +4,13 @@
   "newProjectRoot": "projects",
   "projects": {
     "unpackit": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "en": "src/assets/i18/en.json",
+          "ru": "src/assets/i18/ru.json"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
