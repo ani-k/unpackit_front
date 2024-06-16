@@ -1,15 +1,12 @@
-import {ChangeDetectionStrategy, Component} from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import {LoginComponent} from "../../components/login/login.component";
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'login-page',
   standalone: true,
-  imports: [RouterOutlet, LoginComponent],
+  imports: [],
   templateUrl: './login-page.component.html',
-  styleUrl: './login-page.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush
+  styleUrl: './login-page.component.scss'
 })
 export class LoginPageComponent {
-  title = 'unpackit';
+
 }
